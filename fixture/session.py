@@ -4,6 +4,7 @@ class SessionHelper:
 
     def __init__(self, app):
         self.app = app
+
     def login(self, username, password):
         # login
         wd = self.app.wd
