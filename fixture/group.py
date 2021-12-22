@@ -2,7 +2,7 @@
 
 class GroupHelper:
 
-    def __init(self, app):
+    def __init__(self, app):
         self.app = app
 
     def return_to_groups_page(self):
